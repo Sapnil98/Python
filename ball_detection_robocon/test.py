@@ -10,7 +10,7 @@ count_frames = 1
 def nothing(x):
     pass
 
-    ##cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)
+##cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)
 ##cv2.namedWindow('image',0)
 ##
 ##cv2.createTrackbar('h1','image',0,255,nothing)
