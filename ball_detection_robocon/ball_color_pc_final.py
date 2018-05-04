@@ -8,7 +8,8 @@ cv2.namedWindow('image',0)
 
 Col={'Blue':[83,67,35,123,250,180],'Red':[157,102,73,187,186,180],
      'Gold':[0,33,112,60,92,225]}
-
+## one needs to find the indivial hsv values range for the different colour balls and put them here
+## the order is h0,s0,v0, h1,s1,v1
 cam=cv2.VideoCapture(1)
 
 while 1:
